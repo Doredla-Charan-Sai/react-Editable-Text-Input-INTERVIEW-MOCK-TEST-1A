@@ -1,0 +1,45 @@
+.bg-cont {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5d0fe;
+}
+.card-cont {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+}
+.main-head {
+  font-family: 'Bree Serif';
+  font-size: 23px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+.input-btn-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+.btn {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #d946ef;
+  height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
